@@ -1,0 +1,193 @@
+1. <html>
+Función: Define el documento como un archivo HTML.
+Sintaxis: <html>...</html>
+Ejemplo:
+html
+Copiar código
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi Documento HTML</title>
+  </head>
+  <body>
+    <p>Hola Mundo!</p>
+  </body>
+</html>
+2. <head>
+Función: Contiene metadatos sobre el documento HTML, como el título y enlaces a hojas de estilo o scripts.
+Sintaxis: <head>...</head>
+Ejemplo:
+html
+Copiar código
+<head>
+  <title>Título del documento</title>
+</head>
+3. <title>
+Función: Define el título del documento que aparece en la pestaña del navegador.
+
+Sintaxis: <title>...</title>
+Ejemplo:
+html
+Copiar código
+<title>Mi Página Web</title>
+4. <body>
+Función: Contiene el contenido visible del documento HTML.
+
+Sintaxis: <body>...</body>
+Ejemplo:
+html
+Copiar código
+<body>
+  <h1>Bienvenido a mi página</h1>
+</body>
+5. <h1> a <h6>
+Función: Representan encabezados de diferentes niveles, donde <h1> es el más importante y <h6> el menos importante.
+
+Sintaxis: <h1>...</h1>
+Ejemplo:
+html
+Copiar código
+<h1>Este es un encabezado grande</h1>
+<h3>Este es un encabezado mediano</h3>
+6. <p>
+Función: Define un párrafo de texto.
+
+Sintaxis: <p>...</p>
+Ejemplo:
+html
+Copiar código
+<p>Este es un párrafo de ejemplo.</p>
+7. <a>
+Función: Define un hipervínculo a otra página o recurso.
+
+Sintaxis: <a href="URL">Texto del enlace</a>
+Ejemplo:
+html
+Copiar código
+<a href="https://www.google.com">Ir a Google</a>
+8. <img>
+Función: Inserta una imagen en el documento.
+
+Sintaxis: <img src="URL de la imagen" alt="Texto alternativo">
+Ejemplo:
+html
+Copiar código
+<img src="imagen.jpg" alt="Descripción de la imagen">
+9. <ul> y <li>
+Función: Define una lista desordenada (con viñetas) y elementos de lista.
+
+Sintaxis: <ul>...</ul> y <li>...</li>
+Ejemplo:
+html
+Copiar código
+<ul>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+</ul>
+10. <ol> y <li>
+Función: Define una lista ordenada (numerada) y elementos de lista.
+
+Sintaxis: <ol>...</ol> y <li>...</li>
+Ejemplo:
+html
+Copiar código
+<ol>
+  <li>Primero</li>
+  <li>Segundo</li>
+</ol>
+11. <div>
+Función: Define una sección o un contenedor en el documento HTML.
+
+Sintaxis: <div>...</div>
+Ejemplo:
+html
+Copiar código
+<div>
+  <p>Este es un párrafo dentro de un div.</p>
+</div>
+12. <span>
+Función: Define una sección en línea de un documento HTML, generalmente usada para aplicar estilos.
+
+Sintaxis: <span>...</span>
+Ejemplo:
+html
+Copiar código
+<p>Este es un <span style="color:red;">texto rojo</span>.</p>
+13. <form>
+Función: Define un formulario para la entrada de datos del usuario.
+
+Sintaxis: <form>...</form>
+Ejemplo:
+html
+Copiar código
+<form action="/submit" method="post">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre">
+  <input type="submit" value="Enviar">
+</form>
+14. <input>
+Función: Define un campo de entrada en un formulario.
+
+Sintaxis: <input type="tipo">
+Ejemplo:
+html
+Copiar código
+<input type="text" id="nombre" name="nombre">
+15. <button>
+Función: Define un botón clicable.
+
+Sintaxis: <button>Texto del botón</button>
+Ejemplo:
+html
+Copiar código
+<button>Haz clic aquí</button>
+16. <table>, <tr>, <td>
+Función: Crea una tabla HTML con filas y celdas.
+
+Sintaxis: <table>...</table>, <tr>...</tr>, <td>...</td>
+Ejemplo:
+html
+Copiar código
+<table>
+  <tr>
+    <td>Celda 1</td>
+    <td>Celda 2</td>
+  </tr>
+</table>
+17. <th>
+Función: Define una celda de encabezado en una tabla.
+
+Sintaxis: <th>...</th>
+Ejemplo:
+html
+Copiar código
+<table>
+  <tr>
+    <th>Encabezado 1</th>
+    <th>Encabezado 2</th>
+  </tr>
+</table>
+18. <strong>
+Función: Define texto en negrita con un fuerte énfasis.
+
+Sintaxis: <strong>...</strong>
+Ejemplo:
+html
+Copiar código
+<p>Este es un <strong>texto en negrita</strong>.</p>
+19. <em>
+Función: Define texto en cursiva con un énfasis ligero.
+
+Sintaxis: <em>...</em>
+Ejemplo:
+html
+Copiar código
+<p>Este es un <em>texto en cursiva</em>.</p>
+20. <br>
+Función: Inserta un salto de línea.
+
+Sintaxis: <br>
+Ejemplo:
+html
+Copiar código
+<p>Línea 1<br>Línea 2</p>
